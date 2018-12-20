@@ -1,0 +1,267 @@
+EESchema Schematic File Version 4
+LIBS:schema-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C2
+U 1 1 5C12661E
+P 7250 3050
+F 0 "C2" V 6998 3050 50  0000 C CNN
+F 1 "C" V 7089 3050 50  0000 C CNN
+F 2 "" H 7288 2900 50  0001 C CNN
+F 3 "~" H 7250 3050 50  0001 C CNN
+	1    7250 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5C1266DC
+P 8500 3350
+F 0 "C3" V 8248 3350 50  0000 C CNN
+F 1 "C" V 8339 3350 50  0000 C CNN
+F 2 "" H 8538 3200 50  0001 C CNN
+F 3 "~" H 8500 3350 50  0001 C CNN
+	1    8500 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C126D72
+P 6000 1450
+F 0 "#PWR02" H 6000 1200 50  0001 C CNN
+F 1 "GND" H 6005 1277 50  0000 C CNN
+F 2 "" H 6000 1450 50  0001 C CNN
+F 3 "" H 6000 1450 50  0001 C CNN
+	1    6000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C12713F
+P 4050 3100
+F 0 "R1" V 3843 3100 50  0000 C CNN
+F 1 "R" V 3934 3100 50  0000 C CNN
+F 2 "" V 3980 3100 50  0001 C CNN
+F 3 "~" H 4050 3100 50  0001 C CNN
+	1    4050 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C1271CA
+P 4050 2750
+F 0 "R2" V 3843 2750 50  0000 C CNN
+F 1 "R" V 3934 2750 50  0000 C CNN
+F 2 "" V 3980 2750 50  0001 C CNN
+F 3 "~" H 4050 2750 50  0001 C CNN
+	1    4050 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C127229
+P 6200 4650
+F 0 "R3" V 5993 4650 50  0000 C CNN
+F 1 "R" V 6084 4650 50  0000 C CNN
+F 2 "" V 6130 4650 50  0001 C CNN
+F 3 "~" H 6200 4650 50  0001 C CNN
+	1    6200 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5C128A33
+P 5650 3950
+F 0 "C1" H 5765 3996 50  0000 L CNN
+F 1 "C" H 5765 3905 50  0000 L CNN
+F 2 "" H 5688 3800 50  0001 C CNN
+F 3 "~" H 5650 3950 50  0001 C CNN
+	1    5650 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5C1296DD
+P 6700 4650
+F 0 "D1" H 6692 4395 50  0000 C CNN
+F 1 "LED" H 6692 4486 50  0000 C CNN
+F 2 "" H 6700 4650 50  0001 C CNN
+F 3 "~" H 6700 4650 50  0001 C CNN
+	1    6700 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 4900 6850 4650
+Wire Wire Line
+	6550 4650 6350 4650
+Wire Wire Line
+	6050 4650 6050 5050
+Wire Wire Line
+	6050 5050 6800 5050
+Wire Wire Line
+	6800 5050 6800 5000
+Wire Wire Line
+	6800 5000 6850 5000
+Wire Wire Line
+	3900 2750 3900 2600
+Wire Wire Line
+	3850 2700 3850 3100
+Wire Wire Line
+	3850 3100 3900 3100
+$Comp
+L Device:R R4
+U 1 1 5C14FFB1
+P 3750 3300
+F 0 "R4" H 3820 3346 50  0000 L CNN
+F 1 "R" H 3820 3255 50  0000 L CNN
+F 2 "" V 3680 3300 50  0001 C CNN
+F 3 "~" H 3750 3300 50  0001 C CNN
+	1    3750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3450 3750 3550
+Wire Wire Line
+	5450 3150 4600 3150
+Wire Wire Line
+	4600 3150 4600 2750
+Wire Wire Line
+	4600 2750 4200 2750
+Wire Wire Line
+	4200 3100 4400 3100
+Wire Wire Line
+	4400 3100 4400 3450
+Wire Wire Line
+	4400 3450 5450 3450
+Wire Wire Line
+	5500 3950 3050 3950
+Wire Wire Line
+	3050 3950 3050 2150
+Wire Wire Line
+	3050 2150 3200 2150
+Wire Wire Line
+	5200 2150 5200 2850
+Wire Wire Line
+	5200 2850 5450 2850
+Wire Wire Line
+	3200 2000 3200 2150
+Connection ~ 3200 2150
+Wire Wire Line
+	3200 2150 5200 2150
+Wire Wire Line
+	3200 2150 3200 4300
+Wire Wire Line
+	3200 4300 2550 4300
+Wire Wire Line
+	2550 4300 2550 1450
+Wire Wire Line
+	2550 1450 6000 1450
+Wire Wire Line
+	6850 3250 7100 3250
+Wire Wire Line
+	7100 3250 7100 3050
+Wire Wire Line
+	6850 3450 8350 3450
+Wire Wire Line
+	8350 3450 8350 3350
+Wire Wire Line
+	8650 3350 8650 3050
+Wire Wire Line
+	6850 3750 8950 3750
+Wire Wire Line
+	8950 3750 8950 3050
+Wire Wire Line
+	8950 3050 8650 3050
+$Comp
+L power:GND #PWR0101
+U 1 1 5C16C347
+P 3750 3550
+F 0 "#PWR0101" H 3750 3300 50  0001 C CNN
+F 1 "GND" H 3755 3377 50  0000 C CNN
+F 2 "" H 3750 3550 50  0001 C CNN
+F 3 "" H 3750 3550 50  0001 C CNN
+	1    3750 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2600 3900 2600
+Wire Wire Line
+	3600 2700 3850 2700
+$Comp
+L @Robot:alim_puissance_12V J3
+U 1 1 5C12B971
+P 8250 2850
+F 0 "J3" H 8194 2533 50  0000 C CNN
+F 1 "alim_puissance_12V" H 8194 2624 50  0000 C CNN
+F 2 "" H 8250 2850 50  0001 C CNN
+F 3 "~" H 8250 2850 50  0001 C CNN
+	1    8250 2850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6850 2950 7550 2950
+Wire Wire Line
+	7400 3050 7550 3050
+Wire Wire Line
+	7550 3050 7550 2950
+$Comp
+L @Robot:alim_puissance_12V J2
+U 1 1 5C130494
+P 7050 4900
+F 0 "J2" H 7179 4900 50  0000 L CNN
+F 1 "alim_puissance_12V" H 7179 4809 50  0000 L CNN
+F 2 "" H 7050 4900 50  0001 C CNN
+F 3 "~" H 7050 4900 50  0001 C CNN
+	1    7050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5C13289B
+P 3400 2700
+F 0 "J1" H 3320 3017 50  0000 C CNN
+F 1 "Conn_01x03" H 3320 2926 50  0000 C CNN
+F 2 "" H 3400 2700 50  0001 C CNN
+F 3 "~" H 3400 2700 50  0001 C CNN
+	1    3400 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3150 3750 2800
+Wire Wire Line
+	3750 2800 3600 2800
+Wire Wire Line
+	6150 2250 6150 2000
+Wire Wire Line
+	6150 2000 3200 2000
+$Comp
+L Driver_Motor:LMD18200 U1
+U 1 1 5C126582
+P 6150 3150
+F 0 "U1" H 6150 2072 50  0000 C CNN
+F 1 "LMD18200" H 6150 2163 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-11_P3.4x5.08mm_StaggerOdd_Lead4.85mm_Vertical" H 4700 1800 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmd18200.pdf" H 6050 3150 50  0001 C CNN
+	1    6150 3150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5800 3950 6150 3950
+NoConn ~ 6850 2650
+NoConn ~ 6850 2750
+Wire Wire Line
+	7550 2750 7550 2950
+Connection ~ 7550 2950
+$EndSCHEMATC
